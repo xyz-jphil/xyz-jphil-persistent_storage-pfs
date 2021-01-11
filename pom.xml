@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.xyz-jphil</groupId>
+    <artifactId>xyz-jphil-persistent_storage-pfs</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <name>xyz-jphil-persistent_storage-pfs</name>
+    <description>xyz-jphil-persistent_storage-pfs (PFs - Pesistent Files)
+A library to use simple files to store persistent data. 
+Goals : 
+(*) Should work on all platforms - desktop-app, mobile-app, web-app, front-end-webapp, on top of a database 
+(*) Should be easily replacable when user wants to switch over to a real database
+(*) Should stay lean
+(*) Might become complex and ugly loosing it's charm</description>
+</project>
